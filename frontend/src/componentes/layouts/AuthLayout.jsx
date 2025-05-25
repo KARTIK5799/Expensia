@@ -11,10 +11,10 @@ const AuthLayout = ({children}) => {
         {children}
       </div>
 
-<div className='hidden md:block w-[40vw] h-screen bg-purple-400 bg-auth-bg-image bg-cover bg-no-repeat bg-center overflow-hidden p-8 relative'>
-    <div className=""></div>
-    <div className=""></div>
-    <div className=""></div>
+<div className='hidden md:block w-[40vw] h-screen bg-purple-100 bg-auth-bg-image bg-cover bg-no-repeat bg-center overflow-hidden p-8 relative'>
+    <div className="w-48 h-48 rounded-[40px] bg-purple-600 absolute -top-7 -left-5"></div>
+    <div className="w-48 h-48 rounded-[40px] border-[20px] border-fuchsia-600 absolute top-[30%] -right-[10%]"></div>
+    <div className="w-48 h-48 rounded-[40px] bg-violet-500 absolute -bottom-7 -left-5"></div>
 
     <img src={CARD_2} alt=""  className=''/>
 </div>
