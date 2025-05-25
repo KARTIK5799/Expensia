@@ -1,5 +1,5 @@
 import React from 'react'
-import CARD_2 from '../../assets/images/card2.jpg'
+import CARD_2 from '../../assets/images/card2.png'
 
 const AuthLayout = ({children}) => {
   return (
@@ -11,7 +11,7 @@ const AuthLayout = ({children}) => {
         {children}
       </div>
 
-<div className='hidden md:block w-[40vw] h-screen bg-violet-50 bg-auth-bg-image bg-cover bg-no-repeat bg-center overflow-hidden p-8 relative'>
+<div className='hidden md:block w-[40vw] h-screen bg-purple-400 bg-auth-bg-image bg-cover bg-no-repeat bg-center overflow-hidden p-8 relative'>
     <div className=""></div>
     <div className=""></div>
     <div className=""></div>
