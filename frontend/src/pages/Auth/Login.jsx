@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import AuthLayout from '../../componentes/layouts/AuthLayout'
 
 const Login = () => {
+  const [email, setEmail] = useState();
+  const [password, setPassword] = useState();
+  const [error, setError] = useState();
   return (
     <AuthLayout>
     <div>
